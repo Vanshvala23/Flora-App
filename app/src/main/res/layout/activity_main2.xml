@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/topleft"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-160dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_1" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/custom_font"
+        android:text="Flora"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/img" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="171dp"
+        android:layout_height="166dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-220dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_2" />
+
+</LinearLayout>
