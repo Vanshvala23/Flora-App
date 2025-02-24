@@ -15,9 +15,12 @@
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".DashboardActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
