@@ -2,7 +2,8 @@
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home"
-        android:title="Home"/>
+        android:title="Home"
+        />
 
     <item
         android:id="@+id/nav_dashboard"
@@ -16,6 +17,6 @@
 
     <item
         android:id="@+id/nav_settings"
-        android:icon="@drawable/ic_settings"
-        android:title="Settings"/>
+        android:icon="@drawable/ic_store"
+        android:title="Store"/>
 </menu>

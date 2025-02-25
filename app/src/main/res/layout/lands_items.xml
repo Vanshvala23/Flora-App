@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    android:background="#fff"
+    android:elevation="9dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:padding="19dp">
+
+        <ImageView
+            android:id="@+id/land_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/land_image1" />
+
+        <TextView
+            android:id="@+id/land_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarsali Land"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/land_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner: Patel Abhay"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+        <TextView
+            android:id="@+id/land_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vadodara"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

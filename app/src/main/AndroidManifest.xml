@@ -17,6 +17,9 @@
             android:exported="false" />
         <activity android:name=".RegisterActivity"/>
         <activity android:name=".DashboardActivity"/>
+        <activity android:name=".DashboardLand" />
+
+        <activity android:name=".PlantPage"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

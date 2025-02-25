@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:padding="16dp"
-    tools:context=".MainActivity2">
+    tools:Context=".PlantPage">
 
     <!-- Top Bar -->
     <LinearLayout
@@ -44,29 +44,31 @@
             android:layout_width="90dp"
             android:layout_height="40dp"
             android:text="Land"
-            android:backgroundTint="#035e49"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp"
+            android:backgroundTint="#fff"
             app:cornerRadius="14sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:paddingHorizontal="24dp"
             android:layout_marginEnd="8dp"/>
 
-<!--        <Button-->
-<!--            android:id="@+id/btn_land"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="40dp"-->
-<!--            android:text="Land"-->
-<!--            android:radius="12dp"-->
-<!--            android:background="#035e24"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:paddingHorizontal="24dp"-->
-<!--            android:layout_marginEnd="8dp"/>-->
+        <!--        <Button-->
+        <!--            android:id="@+id/btn_land"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:text="Land"-->
+        <!--            android:radius="12dp"-->
+        <!--            android:background="#035e24"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:paddingHorizontal="24dp"-->
+        <!--            android:layout_marginEnd="8dp"/>-->
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_plants"
-            android:layout_width="96dp"
+            android:layout_width="90dp"
             android:layout_height="40dp"
             android:text="Plants"
-            android:backgroundTint="#fff"
+            android:backgroundTint="#035e49"
             android:textColor="@color/black"
             app:cornerRadius="14sp"
             app:strokeColor="@color/black"
@@ -110,7 +112,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lands available for plants:"
+        android:text="Plants Available:"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:textSize="16sp"
@@ -124,41 +126,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
-
-    <!-- Floating Action Button inside a Card -->
-    <LinearLayout
-        android:layout_width="214dp"
-        android:layout_height="59dp"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:background="@drawable/rounded_button_bg"
-            android:padding="10dp">
-
-            <!-- Text Button -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Add your Land"
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                android:paddingEnd="10dp"/>
-
-           <com.google.android.material.floatingactionbutton.FloatingActionButton
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:src="@drawable/ic_add"
-               android:backgroundTint="@color/green"/>
-        </LinearLayout>
-
-    </LinearLayout>
-
 
     <!-- Bottom Navigation -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
